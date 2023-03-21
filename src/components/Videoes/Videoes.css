@@ -1,0 +1,25 @@
+.catagory-btn button{
+    margin:20px 10px;
+    padding: 0 20px;
+}
+.catagory-btn{
+    margin-bottom: 50px;
+}
+.videoes{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.videos-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.single-video h4{
+    color: white;
+}
+
+@media only screen and (min-width: 1200px) {
+    .videoes{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
